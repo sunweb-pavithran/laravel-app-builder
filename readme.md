@@ -10,4 +10,10 @@ A simple laravel app to build other laravel apps using a frontend without execut
 
 <h2>Usage</h2>
 Simply provide the app name, required version of Laravel and whether or not you are using the default authentication scaffold that comes with laravel. The project will be built outside the folder of the app. Therefore it is recommended to use a local development server such as xampp or wamp. Wait for the build and find the project outside the app directory.
+The default migration will not be run due to the Laravel bug which exists in older MySQL versions.
+
+<h2>To do</h2>
+<ul>
+    <li>Work around string length bug</li>
+</ul>
 
